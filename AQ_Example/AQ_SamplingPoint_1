@@ -28,6 +28,7 @@
 					<ef:resultNature xlink:href="http://inspire.ec.europa.eu/codeList/ResultNatureValue/primary"/>
 					<ef:procedure xlink:href="AT.0008.20.AQ/SPP.07.2218.973.7.1.6173"/>
 					<ef:featureOfInterest xlink:href="AT.0008.20.AQ/SAM.07.2218.973.7.1"/>
+					<!-- Ozone (air) -->
 					<ef:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/7"/>
 				</ef:ObservingCapability>
 			</ef:observingCapability>
