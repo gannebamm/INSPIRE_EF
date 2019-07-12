@@ -32,7 +32,7 @@
 					<ef:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"/>
 				</ef:ObservingCapability>
 			</ef:observingCapability>
-			<ef:broader xlink:href="AT.0008.20.AQ/STA.07.2223"/>
+			<ef:broader xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ%20Example/AQ%20Station"/>
 			<ef:involvedIn xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/samplingpointpurpose/AEI"/>
 			<ef:measurementRegime xlink:href="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection"/>
 			<ef:mobile>false</ef:mobile>
