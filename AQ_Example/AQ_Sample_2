@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sams:SF_SpatialSamplingFeature gml:id="SAM.07.2223.3124.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/samplingSpatial/2.0 http://schemas.opengis.net/samplingSpatial/2.0/spatialSamplingFeature.xsd">
+	<sam:sampledFeature xlink:href="http://sweet.jpl.nasa.gov/2.2/realmAtmoBoundaryLayer.owl#PlanetaryBoundaryLayer"/>
+	<sams:shape>
+		<gml:Point gml:id="SAM.PT.07.2223.3124.1.1" srsDimension="2" srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
+			<gml:pos>16.143612 48.195835</gml:pos>
+		</gml:Point>
+	</sams:shape>
+</sams:SF_SpatialSamplingFeature>
