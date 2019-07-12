@@ -29,10 +29,11 @@
 					<ef:resultNature xlink:href="http://inspire.ec.europa.eu/codeList/ResultNatureValue/primary"/>
 					<ef:procedure xlink:href="AT.0008.20.AQ/SPP.07.2223.3124.1.1.6174"/>
 					<ef:featureOfInterest xlink:href="AT.0008.20.AQ/SAM.07.2223.3124.1.1"/>
-					<ef:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"/>
+					<!-- Sulphur dioxide (air) -->
+					<ef:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"/> 
 				</ef:ObservingCapability>
 			</ef:observingCapability>
-			<ef:broader xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ%20Example/AQ%20Station"/>
+			<ef:broader xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Station"/>
 			<ef:involvedIn xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/samplingpointpurpose/AEI"/>
 			<ef:measurementRegime xlink:href="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection"/>
 			<ef:mobile>false</ef:mobile>
