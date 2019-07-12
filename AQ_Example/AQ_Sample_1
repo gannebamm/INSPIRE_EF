@@ -3,7 +3,7 @@
 	<sam:sampledFeature xlink:href="http://sweet.jpl.nasa.gov/2.2/realmAtmoBoundaryLayer.owl#PlanetaryBoundaryLayer"/>
 	<sams:shape>
 		<gml:Point gml:id="SAM.PT.07.2223.3124.1.1" srsDimension="2" srsName="http://www.opengis.net/gml/srs/epsg.xml#4326">
-			<gml:pos>11.390653 47.2395528</gml:pos>
+			<gml:pos>48.195835 16.143612</gml:pos>
 		</gml:Point>
 	</sams:shape>
 </sams:SF_SpatialSamplingFeature>
