@@ -20,6 +20,7 @@
 					<base:versionId>2014_2016-07-01T12:48:52+01:00</base:versionId>
 				</base:Identifier>
 			</ompr:inspireId>
+			<ompr:name>SO2 Process</ompr:name>
 			<ompr:type>http://inspire.ec.europa.eu/codeList/ProcessTypeValue/process</ompr:type>
 			<ompr:processParameter>
 				<ompr:ProcessParameter>
