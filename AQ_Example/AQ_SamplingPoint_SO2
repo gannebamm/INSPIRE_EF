@@ -1,52 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wfs:FeatureCollection xmlns:wfs="http://www.opengis.net/wfs/2.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:ef="http://inspire.ec.europa.eu/schemas/ef/3.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:ad="urn:x-inspire:specification:gmlas:Addresses:3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gn="urn:x-inspire:specification:gmlas:GeographicalNames:3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:base2="http://inspire.ec.europa.eu/schemas/base2/1.0" xmlns:ompr="http://inspire.ec.europa.eu/schemas/ompr/2.0" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xlink="http://www.w3.org/1999/xlink" numberMatched="unknown" numberReturned="1066" timeStamp="2016-10-02T11:29:03.368Z" xsi:schemaLocation="http://www.opengis.net/wfs/2.0 http://schemas.opengis.net/wfs/2.0/wfs.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
-	<!-- Sampling Point -->
-	<wfs:member>
-		<ef:EnvironmentalMonitoringFacility gml:id="SPO.07.2223.3124.1.1">
-			<ef:inspireId>
-				<base:Identifier>
-					<base:localId>SPO.07.2223.3124.1.1</base:localId>
-					<base:namespace>AT.0008.20.AQ</base:namespace>
-					<base:versionId>2015_2016-09-30T12:54:51+01:00</base:versionId>
-				</base:Identifier>
-			</ef:inspireId>
-			<ef:mediaMonitored xlink:href="http://inspire.ec.europa.eu/codeList/MediaValue/air"/>
-			<ef:geometry>
-				<gml:Point gml:id="SPO.PT.07.2223.3124.1.1" srsDimension="2" srsName="urn:ogc:def:crs:EPSG::4326">
-					<gml:pos>48.195835 16.143612</gml:pos>
-				</gml:Point>
-			</ef:geometry>
-			<ef:observingCapability>
-				<ef:ObservingCapability gml:id="SPO.OC.07.2223.3124.1.1.6174">
-					<ef:observingTime>
-						<gml:TimePeriod gml:id="SPO.OC.TP.07.2223.3124.1.1.6174">
-							<gml:beginPosition>1995-07-01T00:00:00+01:00</gml:beginPosition>
-							<gml:endPosition>2018-12-31T00:00:00+01:00</gml:endPosition>
-						</gml:TimePeriod>
-					</ef:observingTime>
-					<ef:processType xlink:href="http://inspire.ec.europa.eu/codeList/ProcessTypeValue/process"/>
-					<ef:resultNature xlink:href="http://inspire.ec.europa.eu/codeList/ResultNatureValue/primary"/>
-					<ef:procedure xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Process_SO2"/>
-					<ef:featureOfInterest xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Sample_SO2"/>
-					<!-- Sulphur dioxide (air) -->
-					<ef:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"/> 
-				</ef:ObservingCapability>
-			</ef:observingCapability>
-			<ef:broader xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Station"/>
-			<ef:involvedIn xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/samplingpointpurpose/AEI"/>
-			<ef:measurementRegime xlink:href="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection"/>
-			<ef:mobile>false</ef:mobile>
-			<ef:operationalActivityPeriod>
-				<ef:OperationalActivityPeriod gml:id="SPO.OP.07.2223.3124.1.1.6174">
-					<ef:activityTime>
-						<gml:TimePeriod gml:id="SPO.OP.TP.07.2223.3124.1.1.6174">
-							<gml:beginPosition>1995-07-01T00:00:00+01:00</gml:beginPosition>
-							<gml:endPosition>2018-12-31T00:00:00+01:00</gml:endPosition>
-						</gml:TimePeriod>
-					</ef:activityTime>
-				</ef:OperationalActivityPeriod>
-			</ef:operationalActivityPeriod>
-			<ef:belongsTo xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Network"/>
-		</ef:EnvironmentalMonitoringFacility>
-	</wfs:member>
-</wfs:FeatureCollection>
+<!-- Sampling Point -->
+<ef:EnvironmentalMonitoringFacility gml:id="SPO.07.2223.3124.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:ef="http://inspire.ec.europa.eu/schemas/ef/4.0" xmlns:ad="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:base2="http://inspire.ec.europa.eu/schemas/base2/2.0" xmlns:ompr="http://inspire.ec.europa.eu/schemas/ompr/3.0" xmlns:om="http://www.opengis.net/om/2.0" xmlns:sams="http://www.opengis.net/samplingSpatial/2.0" xmlns:sam="http://www.opengis.net/sampling/2.0" xmlns:swe="http://www.opengis.net/swe/2.0" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/ef/4.0 https://inspire.ec.europa.eu/schemas/ef/4.0/EnvironmentalMonitoringFacilities.xsd">
+	<ef:inspireId>
+		<base:Identifier>
+			<base:localId>SPO.07.2223.3124.1.1</base:localId>
+			<base:namespace>AT.0008.20.AQ</base:namespace>
+			<base:versionId>2015_2016-09-30T12:54:51+01:00</base:versionId>
+		</base:Identifier>
+	</ef:inspireId>
+	<ef:mediaMonitored xlink:href="http://inspire.ec.europa.eu/codeList/MediaValue/air"/>
+	<ef:geometry>
+		<gml:Point gml:id="SPO.PT.07.2223.3124.1.1" srsDimension="2" srsName="urn:ogc:def:crs:EPSG::4326">
+			<gml:pos>48.195835 16.143612</gml:pos>
+		</gml:Point>
+	</ef:geometry>
+	<ef:observingCapability>
+		<ef:ObservingCapability gml:id="SPO.OC.07.2223.3124.1.1.6174">
+			<ef:observingTime>
+				<gml:TimePeriod gml:id="SPO.OC.TP.07.2223.3124.1.1.6174">
+					<gml:beginPosition>1995-07-01T00:00:00+01:00</gml:beginPosition>
+					<gml:endPosition>2018-12-31T00:00:00+01:00</gml:endPosition>
+				</gml:TimePeriod>
+			</ef:observingTime>
+			<ef:processType xlink:href="http://inspire.ec.europa.eu/codeList/ProcessTypeValue/process"/>
+			<ef:resultNature xlink:href="http://inspire.ec.europa.eu/codeList/ResultNatureValue/primary"/>
+			<ef:procedure xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Process_SO2"/>
+			<ef:featureOfInterest xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Sample_SO2"/>
+			<!-- Sulphur dioxide (air) -->
+			<ef:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"/>
+		</ef:ObservingCapability>
+	</ef:observingCapability>
+	<ef:broader xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Station"/>
+	<ef:involvedIn xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/samplingpointpurpose/AEI"/>
+	<ef:measurementRegime xlink:href="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection"/>
+	<ef:mobile>false</ef:mobile>
+	<ef:operationalActivityPeriod>
+		<ef:OperationalActivityPeriod gml:id="SPO.OP.07.2223.3124.1.1.6174">
+			<ef:activityTime>
+				<gml:TimePeriod gml:id="SPO.OP.TP.07.2223.3124.1.1.6174">
+					<gml:beginPosition>1995-07-01T00:00:00+01:00</gml:beginPosition>
+					<gml:endPosition>2018-12-31T00:00:00+01:00</gml:endPosition>
+				</gml:TimePeriod>
+			</ef:activityTime>
+		</ef:OperationalActivityPeriod>
+	</ef:operationalActivityPeriod>
+	<ef:belongsTo xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Network"/>
+</ef:EnvironmentalMonitoringFacility>
