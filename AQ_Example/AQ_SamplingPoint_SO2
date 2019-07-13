@@ -26,8 +26,8 @@
 					</ef:observingTime>
 					<ef:processType xlink:href="http://inspire.ec.europa.eu/codeList/ProcessTypeValue/process"/>
 					<ef:resultNature xlink:href="http://inspire.ec.europa.eu/codeList/ResultNatureValue/primary"/>
-					<ef:procedure xlink:href="AT.0008.20.AQ/SPP.07.2223.3124.1.1.6174"/>
-					<ef:featureOfInterest xlink:href="AT.0008.20.AQ/SAM.07.2223.3124.1.1"/>
+					<ef:procedure xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Process_SO2"/>
+					<ef:featureOfInterest xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Sample_SO2"/>
 					<!-- Sulphur dioxide (air) -->
 					<ef:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"/> 
 				</ef:ObservingCapability>
@@ -46,7 +46,7 @@
 					</ef:activityTime>
 				</ef:OperationalActivityPeriod>
 			</ef:operationalActivityPeriod>
-			<ef:belongsTo xlink:href="AT.0008.20.AQ/NET.07"/>
+			<ef:belongsTo xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Network"/>
 		</ef:EnvironmentalMonitoringFacility>
 	</wfs:member>
 </wfs:FeatureCollection>
