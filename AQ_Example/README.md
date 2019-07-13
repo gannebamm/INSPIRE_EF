@@ -3,4 +3,4 @@ In this example, the EnvironmentalMonitoringFacility featureType is utilized at 
 * On the top level representing the Monitoring Station
 * On the lower level representing two Sampling Points, one measuring Ozone while the other measures Sulfer Dioxide.
 
-For each pollutant, a Sample based on the SF_SpatialSamplingFeature featureType has been provided, as well as a Process based on the INSPIRE Process featureType.
+For each pollutant, a Sample utilizing the SF_SpatialSamplingFeature featureType, a Process utilizing the INSPIRE Process featureType and an O&M Observation have been provided.
