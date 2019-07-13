@@ -21,7 +21,7 @@
 					<ef:observingTime>
 						<gml:TimePeriod gml:id="SPO.OC.TP.07.2218.973.7.1.6173">
 							<gml:beginPosition>1987-10-01T00:00:00+01:00</gml:beginPosition>
-							<gml:endPosition>2010-12-31T00:00:00+01:00</gml:endPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
 						</gml:TimePeriod>
 					</ef:observingTime>
 					<ef:processType xlink:href="http://inspire.ec.europa.eu/codeList/ProcessTypeValue/process"/>
@@ -41,7 +41,7 @@
 					<ef:activityTime>
 						<gml:TimePeriod gml:id="SPO.OP.TP.07.2218.973.7.1.6173">
 							<gml:beginPosition>1987-10-01T00:00:00+01:00</gml:beginPosition>
-							<gml:endPosition>2010-12-31T00:00:00+01:00</gml:endPosition>
+							<gml:endPosition indeterminatePosition="unknown"/>
 						</gml:TimePeriod>
 					</ef:activityTime>
 				</ef:OperationalActivityPeriod>
