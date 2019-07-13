@@ -7,5 +7,5 @@ For each pollutant, a Sample utilizing the SF_SpatialSamplingFeature featureType
 
 The following diagram provides an overview of the featureTypes provided and their interlinkage. All XML examples are linked within the example Git Folder.
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/Overview.png)
 
