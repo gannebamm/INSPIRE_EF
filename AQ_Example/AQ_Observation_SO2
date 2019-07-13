@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<om:OM_Observation gml:id="OBS.AT0ILL1.1045.a6c2e926-606f-4dda-9f72-3a455fb8a1ef" xmlns:om="http://www.opengis.net/om/2.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:swe="http://www.opengis.net/swe/2.0" xsi:schemaLocation=" http://www.opengis.net/sos/2.0 http://schemas.opengis.net/sos/2.0/sos.xsd  http://www.opengis.net/om/2.0 http://schemas.opengis.net/om/2.0/observation.xsd  http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd  ">
+	<om:phenomenonTime>
+		<gml:TimePeriod gml:id="OBS.AT0ILL1.1045.a6c2e926-606f-4dda-9f72-3a455fb8a1ef.phenomenonTime">
+			<gml:beginPosition>2012-10-11T01:00:00+01</gml:beginPosition>
+			<gml:endPosition>2012-10-12T01:00:00+01</gml:endPosition>
+		</gml:TimePeriod>
+	</om:phenomenonTime>
+	<om:resultTime>
+		<gml:TimeInstant gml:id="OBS.AT0ILL1.1045.a6c2e926-606f-4dda-9f72-3a455fb8a1ef.resultTime">
+			<gml:timePosition>"2012-10-12T01:00:00+01"</gml:timePosition>
+		</gml:TimeInstant>
+	</om:resultTime>
+	<om:procedure xlink:href="AT.0008.20.AQ/SPP.10.ILL1.64970.1045.1.3954"/>
+	<om:parameter>
+		<om:NamedValue>
+			<om:name xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/processparameter/AssessmentType"/>
+			<om:value xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/assessmenttype/fixed"/>
+		</om:NamedValue>
+	</om:parameter>
+	<om:parameter>
+		<om:NamedValue>
+			<om:name xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/processparameter/SamplingPoint"/>
+			<om:value xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_SamplingPoint_SO2"/>
+		</om:NamedValue>
+	</om:parameter>
+	<om:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"/>
+	<om:featureOfInterest xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Sample_SO2"/>
+	<om:resultQuality>
+		<gmd:DQ_DomainConsistency>
+			<gmd:result>
+				<gmd:DQ_ConformanceResult>
+					<gmd:specification>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>EC/50/2008</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeListValue="publication" codeList="eng">publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:specification>
+					<gmd:explanation>
+						<gco:CharacterString>Time Coverage</gco:CharacterString>
+					</gmd:explanation>
+					<gmd:pass>
+						<gco:Boolean>true</gco:Boolean>
+					</gmd:pass>
+				</gmd:DQ_ConformanceResult>
+			</gmd:result>
+		</gmd:DQ_DomainConsistency>
+	</om:resultQuality>
+	<om:resultQuality>
+		<gmd:DQ_DomainConsistency>
+			<gmd:result>
+				<gmd:DQ_ConformanceResult>
+					<gmd:specification>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gco:CharacterString>EC/50/2008</gco:CharacterString>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeListValue="publication" codeList="eng">publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:specification>
+					<gmd:explanation>
+						<gco:CharacterString>Data Capture</gco:CharacterString>
+					</gmd:explanation>
+					<gmd:pass>
+						<gco:Boolean>true</gco:Boolean>
+					</gmd:pass>
+				</gmd:DQ_ConformanceResult>
+			</gmd:result>
+		</gmd:DQ_DomainConsistency>
+	</om:resultQuality>
+	<om:resultQuality>
+		<gmd:DQ_DomainConsistency>
+			<gmd:result>
+				<gmd:DQ_QuantitativeResult>
+					<gmd:valueUnit>
+						<gml:BaseUnit gml:id="OBS.AT0ILL1.1045.a6c2e926-606f-4dda-9f72-3a455fb8a1ef.resultQuality.PercentageUnit">
+							<gml:identifier codeSpace="http://dd.eionet.europa.eu/vocabularies/aq/resultquality/uncertaintyestimation"/>
+							<gml:catalogSymbol codeSpace="http://www.opengis.net/def/uom/UCUM/">%</gml:catalogSymbol>
+							<gml:unitsSystem xlink:href="http://www.opengis.net/def/uom/UCUM/"/>
+						</gml:BaseUnit>
+					</gmd:valueUnit>
+					<gmd:value>
+						<gco:Record>5</gco:Record>
+					</gmd:value>
+				</gmd:DQ_QuantitativeResult>
+			</gmd:result>
+		</gmd:DQ_DomainConsistency>
+	</om:resultQuality>
+	<om:result>
+		<swe:DataArray>
+			<swe:elementCount>
+				<swe:Count>
+					<swe:value>25</swe:value>
+				</swe:Count>
+			</swe:elementCount>
+			<swe:elementType name="Components">
+				<swe:DataRecord>
+					<swe:field name="StartTime">
+						<swe:Time definition="http://www.opengis.net/def/property/OGC/0/SamplingTime">
+							<swe:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+						</swe:Time>
+					</swe:field>
+					<swe:field name="EndTime">
+						<swe:Time definition="http://www.opengis.net/def/property/OGC/0/SamplingTime">
+							<swe:uom xlink:href="http://www.opengis.net/def/uom/ISO-8601/0/Gregorian"/>
+						</swe:Time>
+					</swe:field>
+					<swe:field name="Verification">
+						<swe:Category definition="http://dd.eionet.europa.eu/vocabularies/aq/observationverification"/>
+					</swe:field>
+					<swe:field name="Validity">
+						<swe:Category definition="http://dd.eionet.europa.eu/vocabularies/aq/observationvalidity"/>
+					</swe:field>
+					<swe:field name="Value">
+						<swe:Quantity definition="http://dd.eionet.europa.eu/vocabulary/aq/primaryObservation/hour">
+							<swe:uom xlink:href="http://dd.eionet.europa.eu/vocabularyconcept/uom/concentration/ug.m-3"/>
+						</swe:Quantity>
+					</swe:field>
+				</swe:DataRecord>
+			</swe:elementType>
+			<swe:encoding>
+				<swe:TextEncoding decimalSeparator="." blockSeparator="@@" tokenSeparator=","/>
+			</swe:encoding>
+			<swe:values>2012-10-11T00:00:00+01,2012-10-11T01:00:00+01,3,-1,0.0@@2012-10-11T01:00:00+01,2012-10-11T02:00:00+01,3,-1,0.0@@2012-10-11T02:00:00+01,2012-10-11T03:00:00+01,3,-1,0.0@@2012-10-11T03:00:00+01,2012-10-11T04:00:00+01,3,-1,0.0@@2012-10-11T04:00:00+01,2012-10-11T05:00:00+01,3,-1,0.0@@2012-10-11T05:00:00+01,2012-10-11T06:00:00+01,3,-1,0.0@@2012-10-11T06:00:00+01,2012-10-11T07:00:00+01,3,-1,0.0@@2012-10-11T07:00:00+01,2012-10-11T08:00:00+01,3,-1,0.0@@
+2012-10-11T08:00:00+01,2012-10-11T09:00:00+01,3,-1,0.0@@2012-10-11T09:00:00+01,2012-10-11T10:00:00+01,3,-1,0.0@@2012-10-11T10:00:00+01,2012-10-11T11:00:00+01,3,-1,0.0@@2012-10-11T11:00:00+01,2012-10-11T12:00:00+01,3,-1,0.0@@2012-10-11T12:00:00+01,2012-10-11T13:00:00+01,3,-1,0.0@@2012-10-11T13:00:00+01,2012-10-11T14:00:00+01,3,-1,0.0@@2012-10-11T14:00:00+01,2012-10-11T15:00:00+01,3,-1,0.0@@2012-10-11T15:00:00+01,2012-10-11T16:00:00+01,3,-1,0.0@@
+2012-10-11T16:00:00+01,2012-10-11T17:00:00+01,3,-1,0.0@@2012-10-11T17:00:00+01,2012-10-11T18:00:00+01,3,-1,0.0@@2012-10-11T18:00:00+01,2012-10-11T19:00:00+01,3,-1,0.0@@2012-10-11T19:00:00+01,2012-10-11T20:00:00+01,3,-1,0.0@@2012-10-11T20:00:00+01,2012-10-11T21:00:00+01,3,-1,0.0@@2012-10-11T21:00:00+01,2012-10-11T22:00:00+01,3,-1,0.0@@2012-10-11T22:00:00+01,2012-10-11T23:00:00+01,3,-1,0.0@@2012-10-11T23:00:00+01,2012-10-12T00:00:00+01,3,-1,0.0@@
+2012-10-12T00:00:00+01,2012-10-12T01:00:00+01,3,-1,0.0@@
+</swe:values>
+		</swe:DataArray>
+	</om:result>
+</om:OM_Observation>
