@@ -44,13 +44,13 @@ numberMatched="unknown" numberReturned="1066" timeStamp="2016-10-02T11:29:03.368
 					</ef:observingTime>
 					<ef:processType xlink:href="http://inspire.ec.europa.eu/codeList/ProcessTypeValue/process"/>
 					<ef:resultNature xlink:href="http://inspire.ec.europa.eu/codeList/ResultNatureValue/primary"/>
-					<ef:procedure xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Process_SO2"/>
-					<ef:featureOfInterest xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Sample_SO2"/>
+					<ef:procedure xlink:href="https://raw.githubusercontent.com/DataCoveEU/INSPIRE_EF/master/AQ_Example/AQ_Process_SO2"/>
+					<ef:featureOfInterest xlink:href="https://raw.githubusercontent.com/DataCoveEU/INSPIRE_EF/master/AQ_Example/AQ_Sample_SO2"/>
 					<!-- Sulphur dioxide (air) -->
 					<ef:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"/>
 				</ef:ObservingCapability>
 			</ef:observingCapability>
-			<ef:broader xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Station"/>
+			<ef:broader xlink:href="https://raw.githubusercontent.com/DataCoveEU/INSPIRE_EF/master/AQ_Example/AQ_Station"/>
 			<ef:involvedIn xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/samplingpointpurpose/AEI"/>
 			<ef:measurementRegime xlink:href="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/continuousDataCollection"/>
 			<ef:mobile>false</ef:mobile>
@@ -64,7 +64,7 @@ numberMatched="unknown" numberReturned="1066" timeStamp="2016-10-02T11:29:03.368
 					</ef:activityTime>
 				</ef:OperationalActivityPeriod>
 			</ef:operationalActivityPeriod>
-			<ef:belongsTo xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Network"/>
+			<ef:belongsTo xlink:href="https://raw.githubusercontent.com/DataCoveEU/INSPIRE_EF/master/AQ_Example/AQ_Network"/>
 		</ef:EnvironmentalMonitoringFacility>
 	</wfs:member>
 </wfs:FeatureCollection>
