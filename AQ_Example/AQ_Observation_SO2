@@ -13,7 +13,7 @@
 					<gml:timePosition>"2012-10-12T01:00:00+01"</gml:timePosition>
 				</gml:TimeInstant>
 			</om:resultTime>
-			<om:procedure xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Process_SO2"/>
+			<om:procedure xlink:href="https://raw.githubusercontent.com/DataCoveEU/INSPIRE_EF/master/AQ_Example/AQ_Process_SO2"/>
 			<om:parameter>
 				<om:NamedValue>
 					<om:name xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/processparameter/AssessmentType"/>
@@ -23,11 +23,11 @@
 			<om:parameter>
 				<om:NamedValue>
 					<om:name xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/processparameter/SamplingPoint"/>
-					<om:value xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_SamplingPoint_SO2"/>
+					<om:value xlink:href="https://raw.githubusercontent.com/DataCoveEU/INSPIRE_EF/master/AQ_Example/AQ_SamplingPoint_SO2"/>
 				</om:NamedValue>
 			</om:parameter>
 			<om:observedProperty xlink:href="http://dd.eionet.europa.eu/vocabulary/aq/pollutant/1"/>
-			<om:featureOfInterest xlink:href="https://github.com/DataCoveEU/INSPIRE_EF/blob/master/AQ_Example/AQ_Sample_SO2"/>
+			<om:featureOfInterest xlink:href="https://raw.githubusercontent.com/DataCoveEU/INSPIRE_EF/master/AQ_Example/AQ_Sample_SO2"/>
 			<om:resultQuality>
 				<gmd:DQ_DomainConsistency>
 					<gmd:result>
