@@ -69,7 +69,7 @@ numberMatched="unknown" numberReturned="1066" timeStamp="2016-10-02T11:29:03.368
 				</base2:RelatedParty>
 			</ef:responsibleParty>
 			<ef:geometry>
-				<gml:Point gml:id="ST.PT.8814C6327A1F4945A4DABFD5AC064D1F" srsDimension="2" srsName="urn:ogc:def:crs:EPSG::4326">
+				<gml:Point gml:id="ST.PT.8814C6327A1F4945A4DABFD5AC064D1F" srsDimension="2" srsName="http://www.opengis.net/def/crs/EPSG/0/4326">
 					<gml:pos>48.195835 16.143612</gml:pos>
 				</gml:Point>
 			</ef:geometry>
