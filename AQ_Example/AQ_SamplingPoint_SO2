@@ -30,7 +30,7 @@ numberMatched="unknown" numberReturned="1066" timeStamp="2016-10-02T11:29:03.368
 			</ef:inspireId>
 			<ef:mediaMonitored xlink:href="http://inspire.ec.europa.eu/codeList/MediaValue/air"/>
 			<ef:geometry>
-				<gml:Point gml:id="SPO.PT.07.2223.3124.1.1" srsDimension="2" srsName="urn:ogc:def:crs:EPSG::4326">
+				<gml:Point gml:id="SPO.PT.07.2223.3124.1.1" srsDimension="2" srsName="http://www.opengis.net/def/crs/EPSG/0/4258">
 					<gml:pos>48.195835 16.143612</gml:pos>
 				</gml:Point>
 			</ef:geometry>
