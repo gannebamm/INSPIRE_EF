@@ -2,6 +2,7 @@
 <gml:FeatureCollection xmlns:ns1="http://www.w3.org/1999/xhtml" xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0" xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:ef="http://inspire.ec.europa.eu/schemas/ef/4.0" xmlns:hfp="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:base2="http://inspire.ec.europa.eu/schemas/base2/2.0" xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3" xmlns:ad="http://inspire.ec.europa.eu/schemas/ad/4.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:cp="http://inspire.ec.europa.eu/schemas/cp/4.0" xmlns:bu-base="http://inspire.ec.europa.eu/schemas/bu-base/4.0" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0" xmlns:om="http://www.opengis.net/om/2.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:au="http://inspire.ec.europa.eu/schemas/au/4.0" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://inspire.ec.europa.eu/schemas/ef/4.0 https://inspire.ec.europa.eu/schemas/ef/4.0/EnvironmentalMonitoringFacilities.xsd http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/deprecatedTypes.xsd">
   <gml:featureMember>
     <ef:EnvironmentalMonitoringFacility gml:id="EnvironmentalMonitoringFacility_IMO7211438">
+      <!-- not sure if the codespace is correct, doubt you can assure that this is the only instance with this ID under that codespace! -->
       <gml:identifier codeSpace="http://inspire.ec.europa.eu/ids">EnvironmentalMonitoringFacility_IMO7211438</gml:identifier>
       <ef:inspireId>
         <base:Identifier>
@@ -16,7 +17,10 @@
       <ef:mediaMonitored xlink:href="http://inspire.ec.europa.eu/codelist/MediaValue/water"></ef:mediaMonitored>
 
       <!-- MISSING representativePoint : this ships home port is Bremerhaven -->
+      <!-- KS: wouldn't worry about this. One could put in Bremerhaven, but not representative for where its measuring -->
+      <!-- KS: I'd only use this if your ship had some particular place it regularly revisited -->
       <!-- MISSING geometry : this ship will conduct measurements worldwide (at least north sea to arctic and beyond) -->
+      <!-- KS: well, then that's your geometry! I admit its a bit tricky with moving EFs, but a polygon of north sea to arctic would nicely show users from where this vessel will be providing data -->
       
       <ef:responsibleParty>
         <base2:RelatedParty>
@@ -33,11 +37,16 @@
 
       <!-- link to specialized observations conducted by this research vessel -->
       <!-- those will be OID resolved by the registry and query the according ProfileObersvation -->
+      <!-- KS: not sure if this encoding will cause issues with validators, as the tag is also providing empty content -->
+      <!-- KS: I'd expect just <ef:hasObservation xlink:href="https://registry.gdi-de.org/id/de.bund.thuenen.inspire.omso_of_po/ProfileObservation_IMO7211438_084_525_CFSN0331"/> -->
       <ef:hasObservation xlink:href="https://registry.gdi-de.org/id/de.bund.thuenen.inspire.omso_of_po/ProfileObservation_IMO7211438_084_525_CFSN0331"></ef:hasObservation>
       <ef:hasObservation xlink:href="https://registry.gdi-de.org/id/de.bund.thuenen.inspire.omso_of_po/ProfileObservation_IMO7211438_084_525_CFSN0335"></ef:hasObservation>
 
       <ef:measurementRegime xlink:href="http://inspire.ec.europa.eu/codelist/MeasurementRegimeValue/demandDrivenDataCollection"></ef:measurementRegime>
       <ef:mobile>true</ef:mobile>
+      
+      <!--KS: No Observing Capabilities for this EF? -->
+      
       <ef:operationalActivityPeriod>
         <ef:OperationalActivityPeriod gml:id="OperationalActivityPeriod_SA">
           <ef:activityTime>
