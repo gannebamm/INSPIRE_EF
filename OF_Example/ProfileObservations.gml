@@ -14,6 +14,7 @@
           <gml:timePosition>1987-06-30 04:05:00.0</gml:timePosition>
         </gml:TimeInstant>
       </om:resultTime>
+      <!-- KS: no documented procedure? Values appear by magic? ;) The INSPIRE Process is VERY simple, please provide something, at least a link to an external document! -->
       <om:procedure xsi:nil="true"/>
       <om:parameter>
         <om:NamedValue>
@@ -22,14 +23,18 @@
           <om:value>https://registry.gdi-de.org/id/de.bund.thuenen.inspire.emf/EnvironmentalMonitoringFacility_IMO7211438</om:value>
         </om:NamedValue>
       </om:parameter>
+      <!-- KS: as the nerc codelist is NOT easy to read, would be nice to add the Obs Prop sea_water_salinity under xlink:title -->
       <om:observedProperty xlink:href="http://vocab.nerc.ac.uk/collection/P07/current/CFSN0331/2/"></om:observedProperty>
       <om:featureOfInterest>
         <sams:SF_SpatialSamplingFeature>
           <!-- we currently do not have the searegion needed. It should be published by BSH germany -->
+          <!-- KS: in the mean time, you could provide something from NASA Sweet -->
           <sam:sampledFeature nilReason="missing" xsi:nil="true"></sam:sampledFeature>
           <sams:shape>
             <gml:LineString srsName="http://www.opengis.net/def/crs/EPSG/0/4326" srsDimension="3">
               <!-- is this pos list valid? -->
+              <!-- KS: the posList may be valid, but the crs isn't! You'd at least need to utilize a 3D crs, alternatively create a complex one out of 4326 plus a depth crs -->
+              <!-- also - are you dealing with depth in m or in dbar? Unfortunately, we're still missing crs for depth in dbar, height in hpascal -->
               <gml:posList axisLabels="d">0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38</gml:posList>
               <gml:coordinates>54.32270050048828 5.269700050354004 0.0 54.32270050048828 5.269700050354004 38.0</gml:coordinates>
             </gml:LineString>
@@ -38,7 +43,9 @@
       </om:featureOfInterest>
       <om:result>
         <gmlcov:ReferenceableGridCoverage>
+          <!-- KS: I'd have to check this block in detail, most of my examples utlized CIS 1.1, so different structure. A few bits flagged below -->
           <gml:gridDomain>
+            <!-- KS: somewhere here you'll need a crs to explain what your d values are! -->
             <gmlcovgrid:ReferenceableGridByArray axisLabels="d">
               <gml:limits>
                 <gml:GridEnvelope>
@@ -54,6 +61,7 @@
           <gml:rangeSet>
             <gml:ValueArray>
               <gml:valueComponents>
+                <!-- KS: ah... are you sure of your uom? kg/g??? -->
                 <gml:QuantityList uom="kg/g">34.318,34.323,34.32,34.316,34.314,34.313,34.312,34.311,34.311,34.31,34.309,34.308,34.313,34.32,34.327,34.334,34.34,34.347,34.354,34.354,34.353,34.353,34.353,34.352,34.352,34.352,34.352,34.351,34.351,34.351,34.351,34.35,34.35,34.351,34.353,34.354,34.356,34.357,34.359</gml:QuantityList>
                 <gml:Count>39</gml:Count>
               </gml:valueComponents>
